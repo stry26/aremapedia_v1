@@ -5,7 +5,7 @@ import Footer from "../Components/footer";
 const tiketPage = () => {
     return <>
     <Navbar />
-    <Tickets />
+        <Tickets />
     <Footer />
     </>
 }

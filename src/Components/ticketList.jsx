@@ -11,23 +11,47 @@ const TicketList = ({ onAddToCart }) => {
   }, []);
 
   return (
-    <div>
+    <div className=" grid col-span-12 gap-2 xl:col-span-9">
       <h2 className="text-xl font-bold mb-4">Daftar Tiket</h2>
       {tickets.map((ticket) => (
         <div
           key={ticket.id}
-          className="p-4 border border-gray-300 rounded-lg shadow-md mb-4"
-        >
-          <h3 className="text-lg font-semibold">{ticket.match}</h3>
-          <p className="text-gray-600">{ticket.date} | {ticket.time}</p>
-          <p className="text-gray-500">Lokasi: {ticket.venue}</p>
-          <ul className="mt-2 space-y-2">
+          className="flex  flex-col justify-center items-center gap-1 border rounded-xl p-2">
+
+            <div className="flex flex-col gap-1 justify-center items-center w-full rounded-xl bg-blue-200">
+              <h3 className="text-[1rem] md:text-[3rem] font-bold">{ticket.match}</h3>
+              <div className="flex gap-3 w-full justify-center items-center">
+                <img className="w-[25%]  " src={ticket.img} alt="img" />
+                <img className="w-[15%]  " src="https://cdn-icons-png.freepik.com/256/9150/9150765.png?semt=ais_hybrid" alt="" />
+                <img className="w-[25%]  " src={ticket.imglawan} alt="img" />
+              </div>
+              <p className="font-bold text-[1.3rem]">{ticket.venue}</p>
+            </div>
+
+          
+          <ul className="grid grid-cols-9  w-full gap-2">
+            
             {ticket.categories.map((category, index) => (
-              <li key={index} className="flex items-center justify-between">
-                <span>
-                  {category.name}: Rp {category.price.toLocaleString()} -{" "}
-                  {category.available} tiket tersedia
+              <div key={index} className="border col-span-4 md:col-span-3  p-2 gap-5 flex flex-col rounded-xl">
+                
+                {/* Img club match */}
+                
+                <span className="font-bold items-center flex gap-2 ">
+                  <img className="w-[25px]" src="https://img.icons8.com/?size=100&id=119&format=png&color=228BE6" alt="" />
+                  {category.name}
                 </span>
+
+                <span className="font-bold items-center flex gap-2 ">
+                  <img className="w-[25px]" src="https://img.icons8.com/?size=100&id=FWRmg3d3z5IQ&format=png&color=228BE6" alt="" />
+                  Rp{category.price.toLocaleString()} -{" "}
+                </span>
+                
+                <span className=" font-bold flex items-center gap-2">
+                  <img className="w-[25px]" src="https://img.icons8.com/?size=100&id=3665&format=png&color=228BE6" alt="" />
+                  {category.available} Tersedia 
+                </span>
+                
+
                 <button
                   onClick={() =>
                     onAddToCart({
@@ -36,13 +60,14 @@ const TicketList = ({ onAddToCart }) => {
                       price: category.price
                     })
                   }
-                  className="ml-4 bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600"
-                >
+                  className="btn btn-primary w-full">
                   Add to Cart
                 </button>
-              </li>
+              </div>
+            
             ))}
           </ul>
+
         </div>
       ))}
     </div>

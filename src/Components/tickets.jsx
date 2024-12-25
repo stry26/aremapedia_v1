@@ -49,12 +49,10 @@ const Tickets = () => {
   };
 
   return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold mb-6">Tiket Arema FC</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div className=" grid grid-cols-12 gap-2 p-2 justify-center items-start ">
+      <TicketList onAddToCart={addToCart} />
         {/* Komponen Daftar Tiket */}
-        <TicketList onAddToCart={addToCart} />
-
+      <div className="grid xl:col-span-3  col-span-12">
         {/* Komponen Keranjang */}
         <Cart
           cartItems={cart}

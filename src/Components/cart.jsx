@@ -1,15 +1,17 @@
 const Cart = ({ cartItems, onRemoveFromCart, onUpdateQuantity }) => {
     return (
-      <div>
+      <div className="h-screen  w-full flex flex-col gap-2">
         <h2 className="text-xl font-bold mb-4">Keranjang Belanja</h2>
+        
         {cartItems.length > 0 ? (
-          <ul className="space-y-2">
+          <ul className="flex overflow-y-auto flex-col gap-2 ">
+            
             {cartItems.map((item, index) => (
-              <li
+              <div
                 key={index}
-                className="p-4 border border-gray-300 rounded-lg shadow-md flex justify-between items-center"
+                className="flex flex-col p-2 gap-2 justify-between items-center w-full rounded-xl border"
               >
-                <div>
+                <div className="w-full">
                   <p>
                     <span className="font-semibold">Match:</span> {item.match}
                   </p>
@@ -39,15 +41,18 @@ const Cart = ({ cartItems, onRemoveFromCart, onUpdateQuantity }) => {
                 </div>
                 <button
                   onClick={() => onRemoveFromCart(item)}
-                  className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600"
+                  className="bg-red-500 w-full text-white px-3 py-1 rounded hover:bg-red-600"
                 >
                   Hapus
                 </button>
-              </li>
+              </div>
             ))}
           </ul>
         ) : (
-          <p className="text-gray-600">Keranjang Anda kosong.</p>
+          <div className="rounded-xl  border flex flex-col items-center justify-start gap-8 p-3 font-bold text-gray-600  ">
+            <img className="w-[60%]" src="https://cdn-icons-png.freepik.com/256/5969/5969149.png?ga=GA1.1.1953129313.1735155486&semt=ais_hybrid" alt="" />
+            <p>Tidak ada tiket yang dipilih</p>
+          </div>
         )}
       </div>
     );

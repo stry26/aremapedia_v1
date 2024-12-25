@@ -1,0 +1,90 @@
+[
+    {
+      "id": 1,
+      "match": "Arema FC vs Persebaya",
+      "date": "2024-12-15",
+      "time": "18:30",
+      "venue": "Stadion Kanjuruhan",
+      "categories": [
+        {
+          "name": "Tribun VIP",
+          "price": 150000,
+          "available": 50
+        },
+        {
+          "name": "Tribun Timur",
+          "price": 100000,
+          "available": 200
+        },
+        {
+          "name": "Tribun Selatan",
+          "price": 75000,
+          "available": 300
+        },
+        {
+          "name": "Tribun Utara",
+          "price": 75000,
+          "available": 300
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "match": "Arema FC vs Persija",
+      "date": "2024-12-22",
+      "time": "20:00",
+      "venue": "Stadion Kanjuruhan",
+      "categories": [
+        {
+          "name": "Tribun VIP",
+          "price": 150000,
+          "available": 45
+        },
+        {
+          "name": "Tribun Timur",
+          "price": 100000,
+          "available": 180
+        },
+        {
+          "name": "Tribun Selatan",
+          "price": 75000,
+          "available": 250
+        },
+        {
+          "name": "Tribun Utara",
+          "price": 75000,
+          "available": 250
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "match": "Arema FC vs PSS Sleman",
+      "date": "2024-12-29",
+      "time": "19:00",
+      "venue": "Stadion Kanjuruhan",
+      "categories": [
+        {
+          "name": "Tribun VIP",
+          "price": 150000,
+          "available": 40
+        },
+        {
+          "name": "Tribun Timur",
+          "price": 100000,
+          "available": 160
+        },
+        {
+          "name": "Tribun Selatan",
+          "price": 75000,
+          "available": 200
+        },
+        {
+          "name": "Tribun Utara",
+          "price": 75000,
+          "available": 200
+        }
+      ]
+    }
+  ]
+  

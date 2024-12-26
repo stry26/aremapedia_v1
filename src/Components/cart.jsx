@@ -1,6 +1,6 @@
 const Cart = ({ cartItems, onRemoveFromCart, onUpdateQuantity }) => {
     return (
-      <div className="h-screen  w-full flex flex-col gap-2">
+      <div className=" w-full flex flex-col gap-2">
         <h2 className="text-xl font-bold mb-4">Keranjang Belanja</h2>
         
         {cartItems.length > 0 ? (

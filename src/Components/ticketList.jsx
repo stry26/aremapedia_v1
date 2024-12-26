@@ -11,12 +11,12 @@ const TicketList = ({ onAddToCart }) => {
   }, []);
 
   return (
-    <div className=" grid col-span-12 gap-2 xl:col-span-9">
+    <div className="grid col-span-12 gap-2 xl:col-span-9">
       <h2 className="text-xl font-bold mb-4">Daftar Tiket</h2>
       {tickets.map((ticket) => (
         <div
           key={ticket.id}
-          className="flex  flex-col justify-center items-center gap-1 border rounded-xl p-2">
+          className="flex flex-col justify-center items-center gap-1 border rounded-xl p-2">
 
             <div className="flex flex-col gap-1 justify-center items-center w-full rounded-xl bg-blue-200">
               <h3 className="text-[1rem] md:text-[3rem] font-bold">{ticket.match}</h3>
@@ -29,10 +29,10 @@ const TicketList = ({ onAddToCart }) => {
             </div>
 
           
-          <ul className="grid grid-cols-9  w-full gap-2">
+          <ul className="grid  grid-cols-9  w-full gap-2">
             
             {ticket.categories.map((category, index) => (
-              <div key={index} className="border col-span-4 md:col-span-3  p-2 gap-5 flex flex-col rounded-xl">
+              <div key={index} className="border xs:col-span-9 col-span-1 p-2 gap-5 flex flex-col rounded-xl">
                 
                 {/* Img club match */}
                 

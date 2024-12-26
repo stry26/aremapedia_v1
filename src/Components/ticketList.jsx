@@ -29,10 +29,10 @@ const TicketList = ({ onAddToCart }) => {
             </div>
 
           
-          <ul className="grid  grid-cols-9  w-full gap-2">
+          <ul className="grid  p-2 bg-lime-300  items-start justify-items-center grid-cols-12  w-full gap-2">
             
             {ticket.categories.map((category, index) => (
-              <div key={index} className="border xs:col-span-9 col-span-1 p-2 gap-5 flex flex-col rounded-xl">
+              <div key={index} className="border bg-blue-200  w-full xs:col-span-12 sm:col-span-4 lg:col-span-3 xl:col-span-3 2xl:col-span-2  justify-between  p-2 gap-2 flex flex-col rounded-xl">
                 
                 {/* Img club match */}
                 

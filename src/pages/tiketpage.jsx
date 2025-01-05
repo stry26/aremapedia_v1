@@ -1,11 +1,11 @@
-import Tickets from "../Components/tickets";
-import Navbar from "../Components/navbar";
-import Footer from "../Components/footer";
+import Tickets from "../component/tickets";
+import Navbar from "../component/navbar";
+import Footer from "../component/footer";
 
 const tiketPage = () => {
     return <>
     <Navbar />
-        <Tickets />
+    <Tickets />
     <Footer />
     </>
 }

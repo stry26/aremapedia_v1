@@ -1,0 +1,78 @@
+{
+    "categories": [
+      {
+        "name": "Jersey",
+        "products": [
+          {
+            "name": "Jersey Home",
+            "price": "Rp 500.000",
+            "description": "Jersey resmi Arema FC untuk pertandingan kandang.",
+            "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98v-lyojkz09fodka8@resize_w450_nl.webp",
+            "link": "https://shopee.co.id/Jersey-Home-Arema-FC-2024-i.1256825220.27407326837?sp_atk=97da3f25-e133-436f-91f6-caeca6455ef8"
+          },
+          {
+            "name": "Jersey Away",
+            "price": "Rp 500.000",
+            "description": "Jersey resmi Arema FC untuk pertandingan tandang.",
+            "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98w-ly7fa6gk8ufc2d@resize_w450_nl.webp",
+            "link": "https://shopee.co.id/Jersey-Away-Arema-FC-2024-i.1256825220.29406372992"
+          },
+          {
+            "name": "Jersey third",
+            "price": "Rp 500.000",
+            "description": "Jersey resmi Arema FC untuk alternatif.",
+            "image": "https://down-id.img.susercontent.com/file/id-11134207-7ras9-m1rvbg48m04eed@resize_w450_nl.webp",
+            "link": "https://shopee.co.id/Jersey-Third-Arema-FC-2024-i.1256825220.27465443620"
+          },
+          {
+            "name": "Jersey Home",
+            "price": "Rp 500.000",
+            "description": "Jersey resmi Arema FC untuk pertandingan kandang.",
+            "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98v-lyojkz09fodka8@resize_w450_nl.webp",
+            "link": "https://shopee.co.id/Jersey-Home-Arema-FC-2024-i.1256825220.27407326837?sp_atk=97da3f25-e133-436f-91f6-caeca6455ef8"
+          },
+          {
+            "name": "Jersey Away",
+            "price": "Rp 500.000",
+            "description": "Jersey resmi Arema FC untuk pertandingan tandang.",
+            "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98w-ly7fa6gk8ufc2d@resize_w450_nl.webp",
+            "link": "https://shopee.co.id/Jersey-Away-Arema-FC-2024-i.1256825220.29406372992"
+          },
+          {
+            "name": "Jersey third",
+            "price": "Rp 500.000",
+            "description": "Jersey resmi Arema FC untuk alternatif.",
+            "image": "https://down-id.img.susercontent.com/file/id-11134207-7ras9-m1rvbg48m04eed@resize_w450_nl.webp",
+            "link": "https://shopee.co.id/Jersey-Third-Arema-FC-2024-i.1256825220.27465443620"
+          }
+        ]
+      },
+      {
+        "name": "Aksesoris",
+        "products": [
+          {
+            "name": "Waist bag",
+            "price": "Rp 170.000",
+            "description": "tas dengan logo Arema FC untuk fans setia.",
+            "image": "https://down-id.img.susercontent.com/file/id-11134207-7rasg-m1f3nwceoyhx77@resize_w450_nl.webp",
+            "link": "https://shopee.co.id/Waist-Bag-Arema-FC-i.1256825220.28314142775?sp_atk=fa9c6ff8-ee3d-45b7-8d3a-4987a690983f"
+          },
+          {
+            "name": "Gantungan Kunci",
+            "price": "Rp 200.000",
+            "description": "Gantungan kunci eksklusif dengan logo Arema FC.",
+            "image": "https://down-id.img.susercontent.com/file/id-11134207-7rasf-m1f3nwceukrpb5@resize_w450_nl.webp",
+            "link": "https://shopee.co.id/Aksesoris-Arema-FC-Keychain-Magnet-Pop-Socket-i.1256825220.27614145488?sp_atk=b40439ee-83cb-4ae9-aff2-12584764dbc2"
+          },
+          {
+            "name": "Syal Arema fc",
+            "price": "Rp 15.000",
+            "description": "syal eksklusif dengan logo Arema FC.",
+            "image": "https://down-id.img.susercontent.com/file/id-11134207-7r98o-ly1wzyob16dp36@resize_w450_nl.webp",
+            "link": "https://shopee.co.id/Scarf-Salam-Satu-Jiwa-Black-Gold-i.1256825220.27105998738?sp_atk=41affc4b-9c28-44b8-994e-ee39639e3185"
+          }
+        ]
+      }
+    ]
+  }
+  

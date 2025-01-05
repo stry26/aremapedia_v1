@@ -1,15 +1,17 @@
-import Navbar from "../Components/navbar";
-import Footer from "../Components/footer";
-import Banner from '../Components/banner'
-const Home = () => {
-    return (
-        <div className="flex flex-col justify-between min-h-screen">
-        <Navbar />
-            <Banner/>
-        <Footer />
-        </div>
-        ) 
+import Navbar from "../component/navbar";
+import Footer from "../component/footer";
+import Banner from "../component/banner";
+import News from "../component/news";
+import Profile from "../component/profile";
 
+const Home = () => {
+    return <>
+    <Navbar />
+    <Banner />
+    <Profile />
+    <News />
+    <Footer />
+    </>
 }
 
 export default Home

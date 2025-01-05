@@ -1,102 +1,101 @@
 [
-    {
-      "id": 1,
-      "img":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Arema_FC_2017_logo.svg/1200px-Arema_FC_2017_logo.svg.png",
-      "imglawan" : "https://www.persebaya.id/img/logo.png",
-      "match": "Arema FC vs Persebaya",
-      "team1":"Arema",
-      "team2":"Persebaya",
-      "date": "2024-12-15",
-      "time": "18:30",
-      "venue": "Stadion Kanjuruhan",
-      "categories": [
-        {
-          "name": "Tribun VIP",
-          "price": 150000,
-          "available": 50
-        },
-        {
-          "name": "Tribun Timur",
-          "price": 100000,
-          "available": 200
-        },
-        {
-          "name": "Tribun Selatan",
-          "price": 75000,
-          "available": 300
-        },
-        {
-          "name": "Tribun Utara",
-          "price": 75000,
-          "available": 300
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "img":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Arema_FC_2017_logo.svg/1200px-Arema_FC_2017_logo.svg.png",
-      "imglawan" : "https://tmssl.akamaized.net//images/wappen/head/14107.png?lm=1656327464",
-      "match": "Arema FC vs Persija",
-      "team1":"Arema",
-      "team2":"Persija",
-      "date": "2024-12-22",
-      "time": "20:00",
-      "venue": "Stadion Kanjuruhan",
-      "categories": [
-        {
-          "name": "Tribun VIP",
-          "price": 150000,
-          "available": 45
-        },
-        {
-          "name": "Tribun Timur",
-          "price": 100000,
-          "available": 180
-        },
-        {
-          "name": "Tribun Selatan",
-          "price": 75000,
-          "available": 250
-        },
-        {
-          "name": "Tribun Utara",
-          "price": 75000,
-          "available": 250
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "img":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Arema_FC_2017_logo.svg/1200px-Arema_FC_2017_logo.svg.png",
-      "imglawan" : "https://cdn.persija.id/assets/uploads/media-uploader/large-persija-jakarta-logo1617818676.png",
-      "match": "Arema FC vs PSS Sleman",
-      "team1":"Arema",
-      "team2":"PSS Sleman",
-      "date": "2024-12-29",
-      "time": "19:00",
-      "venue": "Stadion Kanjuruhan",
-      "categories": [
-        {
-          "name": "Tribun VIP",
-          "price": 150000,
-          "available": 40
-        },
-        {
-          "name": "Tribun Timur",
-          "price": 100000,
-          "available": 160
-        },
-        {
-          "name": "Tribun Selatan",
-          "price": 75000,
-          "available": 200
-        },
-        {
-          "name": "Tribun Utara",
-          "price": 75000,
-          "available": 200
-        }
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "img":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Arema_FC_2017_logo.svg/1200px-Arema_FC_2017_logo.svg.png",
+    "imglawan" : "https://www.persebaya.id/img/logo.png",
+    "match": "Arema FC vs Persebaya",
+    "team1":"Arema",
+    "team2":"Persebaya",
+    "date": "2024-12-15",
+    "time": "18:30",
+    "venue": "Stadion Kanjuruhan",
+    "categories": [
+      {
+        "name": "Tribun VIP",
+        "price": 150000,
+        "available": 50
+      },
+      {
+        "name": "Tribun Timur",
+        "price": 100000,
+        "available": 200
+      },
+      {
+        "name": "Tribun Selatan",
+        "price": 75000,
+        "available": 300
+      },
+      {
+        "name": "Tribun Utara",
+        "price": 75000,
+        "available": 300
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "img":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Arema_FC_2017_logo.svg/1200px-Arema_FC_2017_logo.svg.png",
+    "imglawan" : "https://tmssl.akamaized.net//images/wappen/head/14107.png?lm=1656327464",
+    "match": "Arema FC vs Persija",
+    "team1":"Arema",
+    "team2":"Persija",
+    "date": "2024-12-22",
+    "time": "20:00",
+    "venue": "Stadion Kanjuruhan",
+    "categories": [
+      {
+        "name": "Tribun VIP",
+        "price": 150000,
+        "available": 45
+      },
+      {
+        "name": "Tribun Timur",
+        "price": 100000,
+        "available": 180
+      },
+      {
+        "name": "Tribun Selatan",
+        "price": 75000,
+        "available": 250
+      },
+      {
+        "name": "Tribun Utara",
+        "price": 75000,
+        "available": 250
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "img":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Arema_FC_2017_logo.svg/1200px-Arema_FC_2017_logo.svg.png",
+    "imglawan" : "https://cdn.persija.id/assets/uploads/media-uploader/large-persija-jakarta-logo1617818676.png",
+    "match": "Arema FC vs PSS Sleman",
+    "team1":"Arema",
+    "team2":"PSS Sleman",
+    "date": "2024-12-29",
+    "time": "19:00",
+    "venue": "Stadion Kanjuruhan",
+    "categories": [
+      {
+        "name": "Tribun VIP",
+        "price": 150000,
+        "available": 40
+      },
+      {
+        "name": "Tribun Timur",
+        "price": 100000,
+        "available": 160
+      },
+      {
+        "name": "Tribun Selatan",
+        "price": 75000,
+        "available": 200
+      },
+      {
+        "name": "Tribun Utara",
+        "price": 75000,
+        "available": 200
+      }
+    ]
+  }
+]
